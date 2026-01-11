@@ -9,5 +9,5 @@ start "College Backend" cmd /k "cd /d %~dp0backend && npm start"
 
 echo App started!
 echo Frontend: http://localhost:3000
-echo Backend: http://localhost:5000
+echo Backend: https://college-backend-i2l0.onrender.com
 pause
