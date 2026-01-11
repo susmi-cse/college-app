@@ -1,13 +1,13 @@
 @echo off
 echo Starting College App...
 
-echo Launching Server...
-start "College App Server" cmd /k "cd /d %~dp0server && npm start"
+echo Launching Frontend...
+start "College Frontend" cmd /k "cd /d %~dp0frontend && npm run dev"
 
-echo Launching Client...
-start "College App Client" cmd /k "cd /d %~dp0client-next && npm run dev"
+echo Launching Backend...
+start "College Backend" cmd /k "cd /d %~dp0backend && npm start"
 
-echo App started! Please wait for both windows to initialize.
-echo Client: http://localhost:3000
-echo Server: http://localhost:5000
+echo App started!
+echo Frontend: http://localhost:3000
+echo Backend: http://localhost:5000
 pause
