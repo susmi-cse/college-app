@@ -1,8 +1,7 @@
--- Copy this entire file and paste it into MySQL Workbench Query Window
--- Then click the 'Lightning Bolt' icon to Run.
 
-CREATE DATABASE IF NOT EXISTS college_app;
-USE college_app;
+
+CREATE DATABASE IF NOT EXISTS test;
+USE test;
 
 -- 1. Create Marketplace Table
 CREATE TABLE IF NOT EXISTS marketplace (
