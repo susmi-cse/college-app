@@ -4,7 +4,7 @@ const nextConfig: NextConfig = {
   /* config options here */
   async rewrites() {
     
-    const backendUrl = process.env.BACKEND_URL || 'https://college-app-sgb9.onrender.com';
+    const backendUrl = process.env.BACKEND_URL || 'https://college-app-sgb9.onrender.com/';
     return [
       {
         source: '/api/:path*',
